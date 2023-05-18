@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+    <link rel="stylesheet" href="/css/form1.css">
+</head>
+<body>
+    <fieldset class="yAdd">
+        <legend><h2>Your Address</h2></legend>
+        <form action="#" method="#">
+        <div>
+            <label for="First Name">First Name</label>
+           <input type="text" id="First Name" required>
+        </div>
+        <div>
+            <label for="Last Name">Last Name</label>
+            <input type="text" id="Last Name" required>
+        </div>
+        <div>
+            <label for="Street">Street</label>
+            <input type="Street" id="Street" required>
+        </div>
+        <div>
+            <label for="City">City</label>
+            <input type="City" id="City" required>
+        </div>
+    </fieldset>
+    <fieldset class="ADetails">
+        <legend>Additional Details</legend>
+            <form action="#" method="#">
+                <div>
+                    <label for="Biography">Biography</label>
+                    <textarea name="Message" id="Message" cols="20" rows="2" 
+                 maxlength="100" required></textarea>
+                </div>
+            
+        <div>
+            <label for="">Image</label>
+            <label for="Choose file"></label>
+            <input type="file" id="file">
+        </div>
+        <p>
+            <label for="Age Group">Age Group</label>
+        <input type="number" id="Age Group" min="0" max="9" 
+        placeholder="0 to 9years" step="1" width="10" required>
+        </p>                           
+    </fieldset>
+    <fieldset class="Interest">
+        <legend>Interests</legend>
+            <form action="#" method="#">
+                <p>
+                    <label for="Hobbies">Hobbies</label>
+                    <select name="Hobbies" id="Hobbies" multiple
+            style="margin-top: 40px; margin-bottom: 40px;">
+                <optgroup label="">
+                    <option value="Playing Soccer">Playing soccer</option>
+                    <option value="Dancing">Dancing</option>
+                    <option value="Gardening">Gardening</option>
+                    <option value="Watching movies">Watching Movies</option>
+                </optgroup>
+            </p>
+                    
+    </fieldset>
+            
+</body>
+</html>
